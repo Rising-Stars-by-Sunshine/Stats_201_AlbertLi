@@ -1,4 +1,8 @@
 # Stats-201
+
+This repository contains the code, data, and literature for my STATS 201 research project. Each folder contains a README.md detailing the purpose of its contents, and flowcharts are attached to provide further clarification.
+
+
 ![Headshot](Headshot.jpg)
 
 Albert Li, '27, undecided major.
