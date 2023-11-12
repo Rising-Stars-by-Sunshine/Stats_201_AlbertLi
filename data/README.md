@@ -4,7 +4,7 @@ Data Dictionary
 
 | Variable Name   | Definition           | Description                                      | Frequency | Range  | Unit   | Type    |
 |------------------|----------------------|--------------------------------------------------|-----------|--------|--------|---------|
-| Variable1       | Definition of Var1   | Description of Var1                             | Daily     | 0-100  | Percentage | Numeric |
-| Variable2       | Definition of Var2   | Description of Var2                             | Monthly   | 50-200 | Kg     | Numeric |
-| Variable3       | Definition of Var3   | Description of Var3                             | Hourly    | 0-10   | Liters | Numeric |
-| Variable4       | Definition of Var4   | Description of Var4                             | Yearly    | 100-500 | USD   | Numeric |
+| Open Time       | Definition | Description                             | Hourly     | 00:00-24:00  | HH:MM | Time |
+| Close Time       | Definition | Description                             | Hourly   | 00:00-24:00 | HH:MM | Time |
+| Open       | Definition | Description                             | Hourly    | 1.2-258   | USD | Numeric |
+| Close       | Definition | Description                             | Hourly    | 1.2-258 | USD   | Numeric |
