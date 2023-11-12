@@ -1,3 +1,4 @@
+![Data Query](Data%20Query.png)
 This repository contains a web scraping script designed to gather valuable insights from the r/WallStreetBets subreddit. The focus is on extracting data related to 'Solana' or 'SOL' to analyze the community's sentiment, engagement, and discussions regarding this cryptocurrency.
 
 **Query Parameters**:
