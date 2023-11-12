@@ -12,4 +12,9 @@ The GitHub folder comprises a dataset designed for predicting Solana prices. It 
 | Low       | Lowest price in the interval | The low is the lowest recorded price of the financial instrument or asset within the specified interval. It indicates the minimum value reached during the period. | Hourly    | 1.03-250 | USD   | Numeric |
 | Volume       | Amount of Solana traded within the interval | Volume refers to the total amount of the cryptocurrency Solana (SOL) traded within the specified interval. It reflects the level of market activity and liquidity during that time, representing the quantity of SOL bought or sold. | Hourly    | 133k-19.5m | SOL | Numeric |
 
-**Web Scraper Sentiment**
+**r/WallStreetBets Scraper Sentiment**
+
+Posts will be filtered by the keyword "Solana", and the following values will be taken into account:
+- Date
+- Post popularity (upvotes, medals, comments, etc.)
+- Sentiment (bearish vs. bullish)
