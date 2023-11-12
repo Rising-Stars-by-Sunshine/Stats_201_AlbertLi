@@ -3,7 +3,7 @@ The GitHub folder comprises a dataset designed for predicting Solana prices. It 
 **Data Dictionary**
 
 | Variable Name   | Definition           | Description                                      | Frequency | Range  | Unit   | Type    |
-|------------------|----------------------|--------------------------------------------------|-----------|--------|--------|---------|
+|:------------------:|:----------------------:|--------------------------------------------------|:-----------:|:--------:|:--------:|:---------:|
 | Open Time       | Starting time of interval | The open time represents the starting time of a specified interval, typically associated with financial or trading data. It indicates the time at which a particular event, such as the opening of a trading session, occurs. | Hourly     | 00:00-24:00  | HH:MM | Time |
 | Close Time       | Ending time of interval | The close time represents the ending time of a specified interval. In financial or trading contexts, this is often associated with the conclusion of a trading session or the end of a specific period. | Hourly   | 00:00-24:00 | HH:MM | Time |
 | Open       | Starting price of interval | The open is the starting price of the financial instrument or asset within the specified interval. In trading, it signifies the price at which the first transaction occurred during the given period. | Hourly    | 1.2-258   | USD | Numeric | Sc
