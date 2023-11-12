@@ -2,4 +2,9 @@ The GitHub folder comprises a dataset designed for predicting Solana prices. It 
 
 Data Dictionary
 
-| Variable | Definition | Description | Frequency | Range | Unit | Type |
+| Variable Name   | Definition           | Description                                      | Frequency | Range  | Unit   | Type    |
+|------------------|----------------------|--------------------------------------------------|-----------|--------|--------|---------|
+| Variable1       | Definition of Var1   | Description of Var1                             | Daily     | 0-100  | Percentage | Numeric |
+| Variable2       | Definition of Var2   | Description of Var2                             | Monthly   | 50-200 | Kg     | Numeric |
+| Variable3       | Definition of Var3   | Description of Var3                             | Hourly    | 0-10   | Liters | Numeric |
+| Variable4       | Definition of Var4   | Description of Var4                             | Yearly    | 100-500 | USD   | Numeric |
