@@ -2,6 +2,8 @@
 
 This repository contains the code, data, and literature for my STATS 201 research project. Each folder contains a README.md detailing the purpose of its contents, and flowcharts are attached to provide further clarification.
 
+The purpose of this research is to investigate the performance of current sentiment analysis models on large social media groups. The group used in this study is r/WallStreetBets, a subreddit with over 14 million active members who connect over trading stocks, foreign exchange, and cryptocurrency.
+
 
 ![Headshot](Headshot.jpg)
 
