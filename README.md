@@ -29,11 +29,6 @@ Finger Lakes Community College, 2023
 - Developing a Kotlin-based mobile application for seamless integration with wearable devices via Bluetooth technology.
 - Implementing real-time data reception from wearable sensors and secure storage in a database.
 
-
-### Junior Developer | XYZ Solutions (2018-2020)
-- Developed and maintained web applications using React and Node.js.
-- Conducted code reviews to ensure best practices and maintain code quality.
-
 ## Skills
 - **Languages:** Python, Java, JavaScript, C++
 - **Frameworks:** React, Flutter
