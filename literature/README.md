@@ -5,4 +5,4 @@ This folder contains the documents for each part of the research process, from l
 ## Research Idea Draft
 ![Literature Review](./research-idea-draft.png)
 ## Research Proposal
-![Literature Review](./Research\Proposal.png)
+![Literature Review](./research-proposal.png)
