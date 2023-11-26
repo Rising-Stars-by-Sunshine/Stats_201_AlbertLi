@@ -1,4 +1,4 @@
-# Stats-201
+# Stats 201
 
 ## Table of Contents
 
