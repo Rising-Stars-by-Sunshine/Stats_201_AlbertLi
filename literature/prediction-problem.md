@@ -33,3 +33,10 @@ Most sentiment analysis models are based on assigning intensity values to words 
 ### Machine Learning Algorithm Selection
 
 As the study focuses on predicting WSB post sentiment, the selected machine learning algorithms will use natural language processing (NLP) techniques. These algorithms are known to be the most effective in analyzing textual context for sentiment analysis and will likely be based on recurrent neural networks (RNN) and long short-term memory networks (LSTM). These are the most common methods seen in many sentiment analysis models so they should have the highest performance. To visualize the data and perform causal inference analysis, I plan to use regression discontinuity design (RDD) because of its simplicity and proven effectiveness in predicting causal relationships. By setting a threshold for post length and ambiguous usage, I’ll be able to easily judge the causal relationship between my variables.
+
+## References
+
+Nobanee, H., & Ellili, N. O. D. (2023). What do we know about meme stocks? A bibliometric and systematic review, current streams, developments, and directions for future research. International Review of Economics & Finance, 85, 589–602. https://doi.org/10.1016/j.iref.2023.02.012
+Rodríguez-Ibánez, M., Casánez-Ventura, A., Castejón-Mateos, F., & Cuenca-Jiménez, P.-M. (2023). A Review on Sentiment Analysis from Social Media Platforms. Expert Systems with Applications, 223, 119862. https://doi.org/10.1016/j.eswa.2023.119862
+Suhaimin, M., Hijazi, A., Ervin Gubin Moung, Puteri N. E. Nohuddin, Chua, S., & Coenen, F. (2023). Social Media Sentiment Analysis and Opinion Mining in Public Security: Taxonomy, Trend Analysis, Issues and Future Directions. Journal of King Saud University - Computer and Information Sciences, 35(9), 101776–101776. https://doi.org/10.1016/j.jksuci.2023.101776
+Xu, Q. A., Chang, V., & Jayne, C. (2022). A systematic review of social media-based sentiment analysis: Emerging trends and challenges. Decision Analytics Journal, 3, 100073. https://doi.org/10.1016/j.dajour.2022.100073
