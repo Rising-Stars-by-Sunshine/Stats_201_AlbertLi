@@ -1,6 +1,6 @@
 A Python script will be run to prepare the data, leveraging the PRAW (Python Reddit API Wrapper) library to extract post information from r/WallStreetBets. The focus is on three key elements: post content, upvotes, and comments. Using Reddit API credentials, PRAW will extract every post from r/WallStreetBets from the top of the past year. To sort for quality, only the posts with 250 upvotes and comments will be used. This is because posts with sufficient community interaction will indicate a potential shift in opinion or sentiment about a specific asset or the market altogether. The data will then be manually labeled to create a true label to compare the sentiment analysis models results to.
 
-**Data Dictionary**
+# Data Dictionary
 
 | Variable Name    | Definition            | Description                                       | Frequency | Range   | Unit   | Type      |
 |:-----------------:|:----------------------:|---------------------------------------------------|:---------:|:-------:|:------:|:---------:|
@@ -8,7 +8,18 @@ A Python script will be run to prepare the data, leveraging the PRAW (Python Red
 | `comments`        | Number of Comments     | The count of comments on each Reddit post.         |1000       | Integer |N/A     | Numeric   |
 | `upvotes`         | Upvotes               | The number of upvotes received by each post.      |1000       | Integer |N/A     | Numeric   |
 
-**Sample Code**
+# Sample Code
+See the ![Google Colab Notebook](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/blob/main/data/STATS_201_ajl128_data_query.ipynb). Also see ![PRAW](https://praw.readthedocs.io/en/stable/) for more details.
+
+## Prerequisites
+
+1. Install PRAW through pip.
+```python
+pip install praw
+```
+2. Obtain Reddit API credentials. See ![Reddit API](https://www.reddit.com/dev/api/) for more details.
+
+
 ```python
 import praw
 from google.colab import userdata
@@ -40,3 +51,4 @@ for submission in subreddit.hot(limit=5):
     print(f"Upvotes: {upvotes}")
     print(f"Number of Comments: {num_comments}")
     print("\n" + "-" * 50 + "\n")
+```
