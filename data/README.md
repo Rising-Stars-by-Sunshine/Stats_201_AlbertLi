@@ -7,8 +7,8 @@ A Python script will be run to prepare the data, leveraging the PRAW (Python Red
 | `post_id`       | Reddit Post ID      | The unique identifier of each post. |1000       |N/A      |N/A     | String    |
 | `post_title`       | Reddit Post Text      | The title of posts on r/WallStreetBets. |1000       |N/A      |N/A     | String    |
 | `post_content`       | Reddit Post Text      | The textual content of posts on r/WallStreetBets. |1000       |N/A      |N/A     | String    |
-| `comments`        | Number of Comments     | The count of comments on each Reddit post.         |1000       | Integer |N/A     | Numeric   |
-| `upvotes`         | Upvotes               | The number of upvotes received by each post.      |1000       | Integer |N/A     | Numeric   |
+| `comments`        | Number of Comments     | The count of comments on each Reddit post.         |1000       | N/A | N/A     | Numeric   |
+| `upvotes`         | Upvotes               | The number of upvotes received by each post.      |1000       | N/A | N/A     | Numeric   |
 
 See the [Google Colab Notebook](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/blob/main/data/STATS_201_ajl128_data_query.ipynb). Also see [PRAW](https://praw.readthedocs.io/en/stable/) for more details.
 
