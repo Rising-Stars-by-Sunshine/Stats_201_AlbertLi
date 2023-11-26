@@ -9,4 +9,34 @@ A Python script will be run to prepare the data, leveraging the PRAW (Python Red
 | `upvotes`         | Upvotes               | The number of upvotes received by each post.      |1000       | Integer |N/A     | Numeric   |
 
 **Sample Code**
-![Open In nbviewer](https://nbviewer.org/github/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/blob/main/data/STATS_201_ajl128_data_query.ipynb)
+```python
+import praw
+from google.colab import userdata
+
+# Set up PRAW with your Reddit API credentials
+reddit = praw.Reddit(
+    client_id= userdata.get('clientID'),
+    client_secret= userdata.get('clientSecret'),
+    user_agent= userdata.get('userAgent')
+)
+
+# Specify the subreddit you want to scrape
+subreddit_name = 'WallStreetBets'
+subreddit = reddit.subreddit(subreddit_name)
+
+# Iterate through the top 5 hot posts in the subreddit
+for submission in subreddit.hot(limit=5):
+    # Extract relevant information
+    post_id = submission.id
+    post_title = submission.title
+    post_content = submission.selftext  # Use 'title' for post title
+    upvotes = submission.score
+    num_comments = submission.num_comments
+
+    # Print or store the information as needed
+    print(f"Post ID: {post_id}")
+    print(f"Title: {post_title}")
+    print(f"Content: {post_content}")
+    print(f"Upvotes: {upvotes}")
+    print(f"Number of Comments: {num_comments}")
+    print("\n" + "-" * 50 + "\n")
