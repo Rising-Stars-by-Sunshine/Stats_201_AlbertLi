@@ -1,7 +1,5 @@
 # Stats-201
 
-This project explores sentiment analysis on the r/wallstreetbets subreddit, employing established models on a web-scraped dataset. The unique challenge arises from the subreddit's frequent use of short text, coined terms, and multimedia content such as images and links. The hypothesis driving this investigation is that traditional sentiment analysis models may face challenges in effectively capturing sentiments due to the unconventional language and rich media employed by the community. By delving into these intricacies, the repository aims to shed light on the limitations and nuances of sentiment analysis in unconventional online forums.
-
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -11,7 +9,7 @@ This project explores sentiment analysis on the r/wallstreetbets subreddit, empl
 
 ## Introduction {#introduction}
 
-This is the introduction.
+This project explores sentiment analysis on the r/wallstreetbets subreddit, employing established models on a web-scraped dataset. The unique challenge arises from the subreddit's frequent use of short text, coined terms, and multimedia content such as images and links. The hypothesis driving this investigation is that traditional sentiment analysis models may face challenges in effectively capturing sentiments due to the unconventional language and rich media employed by the community. By delving into these intricacies, the repository aims to shed light on the limitations and nuances of sentiment analysis in unconventional online forums.
 
 ## Code {#code}
 
@@ -24,6 +22,9 @@ Folder containing the data and the data querying method.
 ## Literature {#literature}
 
 Folder containing documentation and literature to elucidate the study's goals and findings.
+
+
+
 ![Headshot](Headshot.jpg)
 
 Albert Li, '27, undecided major.
