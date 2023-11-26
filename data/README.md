@@ -8,7 +8,6 @@ A Python script will be run to prepare the data, leveraging the PRAW (Python Red
 | `comments`        | Number of Comments     | The count of comments on each Reddit post.         |1000       | Integer |N/A     | Numeric   |
 | `upvotes`         | Upvotes               | The number of upvotes received by each post.      |1000       | Integer |N/A     | Numeric   |
 
-# Sample Code
 See the [Google Colab Notebook](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/blob/main/data/STATS_201_ajl128_data_query.ipynb). Also see [PRAW](https://praw.readthedocs.io/en/stable/) for more details.
 
 ## Prerequisites
@@ -19,6 +18,7 @@ pip install praw
 ```
 2. Obtain Reddit API credentials. See [Reddit API](https://www.reddit.com/dev/api/) for more details.
 
+## Sample Code
 
 ```python
 import praw
