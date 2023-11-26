@@ -4,7 +4,9 @@ A Python script will be run to prepare the data, leveraging the PRAW (Python Red
 
 | Variable Name    | Definition            | Description                                       | Frequency | Range   | Unit   | Type      |
 |:-----------------:|:----------------------:|---------------------------------------------------|:---------:|:-------:|:------:|:---------:|
-| `post_text`       | Reddit Post Text      | The textual content of posts on r/WallStreetBets. |1000       |N/A      |N/A     | String    |
+| `post_id`       | Reddit Post ID      | The unique identifier of each post. |1000       |N/A      |N/A     | String    |
+| `post_title`       | Reddit Post Text      | The title of posts on r/WallStreetBets. |1000       |N/A      |N/A     | String    |
+| `post_content`       | Reddit Post Text      | The textual content of posts on r/WallStreetBets. |1000       |N/A      |N/A     | String    |
 | `comments`        | Number of Comments     | The count of comments on each Reddit post.         |1000       | Integer |N/A     | Numeric   |
 | `upvotes`         | Upvotes               | The number of upvotes received by each post.      |1000       | Integer |N/A     | Numeric   |
 
@@ -40,7 +42,7 @@ for submission in subreddit.hot(limit=5):
     # Extract relevant information
     post_id = submission.id
     post_title = submission.title
-    post_content = submission.selftext  # Use 'title' for post title
+    post_content = submission.selftext
     upvotes = submission.score
     num_comments = submission.num_comments
 
