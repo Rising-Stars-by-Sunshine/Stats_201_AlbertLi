@@ -13,15 +13,15 @@ This project explores sentiment analysis on the r/wallstreetbets subreddit, empl
 
 ## Code
 
-Folder containing the various sentiment analysis models from prior high-performing models.
+[Folder](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/tree/main/code) containing the various sentiment analysis models from prior high-performing models.
 
 ## Data
 
-Folder containing the data and the data querying method.
+[Folder](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/tree/main/data) containing the data and the data querying method.
 
 ## Literature
 
-Folder containing documentation and literature to elucidate the study's goals and findings.
+[Folder](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/tree/main/literature) containing documentation and literature to elucidate the study's goals and findings.
 
 
 
