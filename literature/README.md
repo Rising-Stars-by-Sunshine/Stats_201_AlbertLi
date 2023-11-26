@@ -1,1 +1,1 @@
-This folder contains the documents required to answer Part I of Problem Set 1
+This folder contains the documents for each part of the research process, from literature review to idea formulation to the exploration of causal inference methods.
