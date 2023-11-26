@@ -1,5 +1,6 @@
 # Stats-201
 
+
 This repository contains the code, data, and literature for my STATS 201 research project. Each folder contains a README.md detailing the purpose of its contents, and flowcharts are attached to provide further clarification.
 
 The purpose of this research is to investigate the performance of current sentiment analysis models on large social media groups. The group used in this study is r/WallStreetBets, a subreddit with over 14 million active members who connect over trading stocks, foreign exchange, and cryptocurrency.
@@ -10,3 +11,42 @@ The purpose of this research is to investigate the performance of current sentim
 Albert Li, '27, undecided major.
 I'm a freshman at Duke Kunshan University (DKU) with a passion for both STEM and finance, although I haven't settled on a specific major just yet. I'm excited to explore the intersection of these fields and discover where my interests lie. In addition to my academic pursuits, I'm an active member of the DKU Finance Club and the DKU Pre-Law Society, allowing me to engage in discussions related to finance, investment, and economic trends, as well as explore the legal aspects of business and finance. Beyond my club involvement, I'm always seeking new opportunities to broaden my horizons and make meaningful connections on campus, believing that diverse experiences will guide me toward a fulfilling academic and professional journey at DKU.
 
+# Albert Li
+
+## Summary
+Experienced software developer with a passion for building innovative solutions. Skilled in Python, JavaScript, and React.
+
+## Education
+**Bachelor of Science in Data Science**  
+Duke Kunshan University, 2027
+- GPA: 4.0/4.0
+Finger Lakes Community College, 2023
+- GPA: 4.0/4.0
+- Courses: Object-Oriented Software Development, Data Structure, Discrete Mathematics, Computer Architecture, Hardware & Operating Systems, Networking Technologies, Technical Ethics
+
+## Experience
+### Software Development Intern | HealthX (2023)
+- Sole software development member responsible for architecting and implementing the entire software stack.
+- Collaborated with cross-functional teams to deliver scalable and maintainable software solutions.
+- Collaborated with startup head and UX designer for website design.
+- Developing a Kotlin-based mobile application for seamless integration with wearable devices via Bluetooth technology.
+- Implementing real-time data reception from wearable sensors and secure storage in a database.
+
+
+### Junior Developer | XYZ Solutions (2018-2020)
+- Developed and maintained web applications using React and Node.js.
+- Conducted code reviews to ensure best practices and maintain code quality.
+
+## Skills
+- **Languages:** Python, Java, JavaScript, C++
+- **Frameworks:** React, Flutter
+- **Tools:** Git
+- **Soft Skills:** Team Collaboration, Problem Solving
+
+## Projects
+- [HealthX Website]([https://github.com/username/project-a](https://test-8792e6-7860c922f4167-10b3928188638.webflow.io/)): Website for HealthX.
+
+
+## Contact
+- Email: ajl128@duke.edu
+- LinkedIn: [https://www.linkedin.com/in/albert-li](https://www.linkedin.com/in/albert-li-6b5412242/)
