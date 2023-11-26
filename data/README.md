@@ -9,4 +9,4 @@ A Python script will be run to prepare the data, leveraging the PRAW (Python Red
 | `upvotes`         | Upvotes               | The number of upvotes received by each post.      |1000       | Integer |N/A     | Numeric   |
 
 **Sample Code**
-![Open In nbviewer](https://nbviewer.jupyter.org/static/img/nav_logo.svg)
+![Open In nbviewer](https://nbviewer.org/github/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/blob/main/data/STATS_201_ajl128_data_query.ipynb)
