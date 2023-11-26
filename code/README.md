@@ -46,3 +46,6 @@ for submission in subreddit.hot(limit=5):
     print(f"Number of Comments: {num_comments}")
     print("\n" + "-" * 50 + "\n")
 ```
+
+## Flowchart
+![Coding Process](./coding-process.png)
