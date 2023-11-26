@@ -1,10 +1,7 @@
 # Stats-201
 
 
-This repository contains the code, data, and literature for my STATS 201 research project. Each folder contains a README.md detailing the purpose of its contents, and flowcharts are attached to provide further clarification.
-
-The purpose of this research is to investigate the performance of current sentiment analysis models on large social media groups. The group used in this study is r/WallStreetBets, a subreddit with over 14 million active members who connect over trading stocks, foreign exchange, and cryptocurrency.
-
+This project explores sentiment analysis on the r/wallstreetbets subreddit, employing established models on a web-scraped dataset. The unique challenge arises from the subreddit's frequent use of short text, coined terms, and multimedia content such as images and links. The hypothesis driving this investigation is that traditional sentiment analysis models may face challenges in effectively capturing sentiments due to the unconventional language and rich media employed by the community. By delving into these intricacies, the repository aims to shed light on the limitations and nuances of sentiment analysis in unconventional online forums.
 
 ![Headshot](Headshot.jpg)
 
