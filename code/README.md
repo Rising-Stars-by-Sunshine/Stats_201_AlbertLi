@@ -12,6 +12,15 @@ pip install praw
 ```
 2. Obtain Reddit API credentials. See [Reddit API](https://www.reddit.com/dev/api/) for more details.
 
+### Reddit API Setup
+
+1. Create a Reddit account [here](https://www.reddit.com/register/).
+
+2. [Create a Reddit app](https://www.reddit.com/prefs/apps) for personal use. Fill out the name, description, about URL, and redirect URI as desired.
+![Create Reddit App]()
+3. Extract the "personal use script", "secret", and your application name. These will be your client_id, client_secret, and user_agent.
+![Obtain API credentials]()
+
 ## Sample Code
 
 ```python
