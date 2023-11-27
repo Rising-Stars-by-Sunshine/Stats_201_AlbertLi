@@ -17,6 +17,8 @@ pip install praw
 1. Create a Reddit account [here](https://www.reddit.com/register/).
 
 2. [Create a Reddit app](https://www.reddit.com/prefs/apps) for personal use. Fill out the name, description, about URL, and redirect URI as desired.
+<img src="./reddit_api_step_1.png" width="300" height="200" alt="Description of the image">
+
 ![Create Reddit App](./reddit_api_step_1.png){:width="300" height="200"}
 3. Extract the "personal use script", "secret", and your application name. These will be your client_id, client_secret, and user_agent.
 ![Obtain API credentials](./reddit_api_step_2.png){:width="300" height="200"}
