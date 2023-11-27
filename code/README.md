@@ -21,6 +21,13 @@ pip install praw
 3. Extract the "personal use script", "secret", and your application name. These will be your client_id, client_secret, and user_agent.
 <img src="./reddit_api_step_2.png" width="600" height="auto" alt="Obtain Reddit API credentials">
 
+#### Example API Credentials
+```python
+client_id = 'APKqZnss-DuMurcab6oLbf'
+client_secret = 'iKTVvJdfAXkdgt2BVWQ'
+user_agent = 'dku-stats-201 (by u/Alb3r7-Li)'
+```
+
 ## Sample Code
 
 ```python
