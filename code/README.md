@@ -2,7 +2,7 @@ The code will be comprised of two parts: web scraping and testing. The web scrap
 
 # Webscraping
 
-See the [Google Colab Notebook](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/blob/main/data/STATS_201_ajl128_data_query.ipynb). Also see [PRAW](https://praw.readthedocs.io/en/stable/) for more details.
+See the [Google Colab Notebook](./STATS_201_ajl128_data_query.ipynb). Also see [PRAW](https://praw.readthedocs.io/en/stable/) for more details.
 
 ## Prerequisites
 
