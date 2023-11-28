@@ -8,11 +8,11 @@ The data extraction process involved accessing the Reddit API and retrieving pos
 
 After data preparation, three sentiment analysis models were employed to analyze the labeled dataset. The models used were:
 
-1. VaderSentiment: Model designed for sentiment analysis on text data and provides a polarity score for each post.
+1. [VaderSentiment](https://github.com/cjhutto/vaderSentiment#python-demo-and-code-examples): Model designed for sentiment analysis on text data and provides a polarity score for each post.
 
-2. Twitter-roBERTa-base: Leverages the roBERTa-base architecture, fine-tuned on Twitter data.
+2. [Twitter-roBERTa-base](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest): Leverages the roBERTa-base architecture, fine-tuned on Twitter data.
 
-3. distilRoberta-financial-sentiment: Model fine-tuned specifically for financial sentiment analysis.
+3. [distilRoberta-financial-sentiment](https://huggingface.co/mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis): Model fine-tuned specifically for financial sentiment analysis.
 
 ## Data Dictionary
 
