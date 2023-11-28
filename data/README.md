@@ -8,7 +8,7 @@ This section of the data folder contains the labeled dataset obtained from the w
 
 ### Dataset Overview
 
-- **File Name:** [insert file name]
+- **File Name:** reddit-labeled-output.csv
 - **Columns:**
   - **Post Content:** The text content of the post.
   - **Upvotes:** The number of upvotes received for the post.
@@ -25,6 +25,7 @@ To utilize the labeled data:
 2. **Use as Ground Truth:**
    The true labels assigned to each post serve as ground truth for evaluating the performance of sentiment analysis models.
 
+**Output File Name:** reddit-processed-output.csv
 ---
 
 ## Processed Data from Sentiment Analysis Models
