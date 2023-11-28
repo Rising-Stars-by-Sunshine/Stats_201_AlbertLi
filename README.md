@@ -37,7 +37,15 @@ After data preparation, three sentiment analysis models were employed to analyze
 
 [Folder](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/tree/main/literature) containing documentation and literature to elucidate the study's goals and findings.
 
+## Results
 
+### Accuracy Over Epochs
+
+![Combined Results](/accuracy-plot.png)
+
+- `VaderSentiment: 0.4712041884816754`
+- `Twitter-roBERTa-base:0.5790575916230374`
+- `distilRoberta-financial-sentiment:0.3518324607329846`
 
 ![Headshot](Headshot.jpg)
 
