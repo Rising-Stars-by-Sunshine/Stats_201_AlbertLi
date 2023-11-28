@@ -1,5 +1,19 @@
 This project involved extracting post information from r/WallStreetBets using the PRAW (Python Reddit API Wrapper) library. The main focus was on three key elements: post content, upvotes, and comments. Utilizing Reddit API credentials, PRAW was employed to extract every post from r/WallStreetBets within the past year. The aim was to sort for quality by selecting posts with a minimum of 10000 upvotes and comments. This criterion was chosen to ensure that only posts with sufficient community interaction were included, indicating a potential shift in opinion or sentiment about a specific asset or the market as a whole.
 
+## Data Extraction
+
+The data extraction process involved accessing the Reddit API and retrieving posts meeting the specified criteria. The extracted data included post content, upvote count, and the number of comments for each post. This dataset was then manually labeled to create true labels, which would be used to compare the results of sentiment analysis models.
+
+## Sentiment Analysis Models
+
+After data preparation, three sentiment analysis models were employed to analyze the labeled dataset. The models used were:
+
+1. VaderSentiment: Model designed for sentiment analysis on text data and provides a polarity score for each post.
+
+2. Twitter-roBERTa-base: Leverages the roBERTa-base architecture, fine-tuned on Twitter data.
+
+3. distilRoberta-financial-sentiment: Model fine-tuned specifically for financial sentiment analysis.
+
 ## Data Dictionary
 
 | Variable Name   | Definition           | Description                                    | Frequency | Sample Observation                                      | Type      |
