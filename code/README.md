@@ -1,12 +1,12 @@
-The code will be comprised of two parts: web scraping and testing. The web scraping portion will be created using PRAW (Python Reddit API Wrapper) to access the Reddit API and to scrape the contents of r/WallStreetBets. From each post, the post's textual content, upvotes, and comments will be extracted. To filter the resultant data, a threshold of 250 comments and upvotes will be applied to ensure the quality of each post. After filtering, I will manually label the data to assign each post as positive, neutral, or negative. For the testing, methodologies from multiple high-performing sentiment analysis models will run the r/WallStreetBets dataset on an 85-15 train-test split. Finally, the results will be compared with the true labels (created manually) to analyze for accuracy, f-measure, precision, and recall.
-
 # Webscraping
+
+This section of the code is dedicated to web scraping using the PRAW (Python Reddit API Wrapper) library. The goal was to extract valuable information from r/WallStreetBets, focusing on three key elements: post content, upvotes, and comments. The Reddit API was accessed with appropriate credentials, allowing for the extraction of every post from r/WallStreetBets over the past year. To ensure data quality, only posts with a minimum of 250 upvotes and comments were included. This criterion was chosen to highlight posts with substantial community interaction, indicating potential shifts in sentiment or opinions related to specific assets or the market as a whole.
 
 See the [Google Colab Notebook](./STATS_201_ajl128_data_query.ipynb). Also see [PRAW](https://praw.readthedocs.io/en/stable/) for more details.
 
 ## Prerequisites
 
-1. Install PRAW through pip.
+1. Install Dependencies:
 ```python
 pip install praw
 ```
@@ -65,6 +65,67 @@ for submission in subreddit.hot(limit=5):
     print(f"Upvotes: {upvotes}")
     print(f"Number of Comments: {num_comments}")
     print("\n" + "-" * 50 + "\n")
+```
+
+# Sentiment Analysis Models
+
+This section of the code involves processing the extracted data through three distinct sentiment analysis models: VaderSentiment, Twitter-roBERTa-base, and distilRoberta-financial-sentiment. The objective is to analyze the sentiment expressed in the WallStreetBets posts and compare the results against manually labeled true labels.
+
+## Prerequisites
+Install Dependencies:
+```python
+pip install vaderSentiment transformers emoji
+```
+
+## Sample Code
+
+```python
+# VaderSentiment
+
+import csv
+import pandas as pd
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
+# Replace 'your_file.csv' with the actual file name
+csv_file = '/content/reddit-labeled-output.csv'
+
+sentences = []
+
+with open(csv_file, 'r') as file:
+    reader = csv.reader(file)
+    
+    for row in reader:
+        # Assuming each row has at least 3 columns
+        sentences.append(row[1]+". "+row[2]) if len(row[2]) > 0 else sentences.append(row[1])  # Indexing starts from 0
+
+sentences = sentences[1:]
+
+sentiments = []
+analyzer = SentimentIntensityAnalyzer()
+for sentence in sentences:
+    vs = analyzer.polarity_scores(sentence)
+    sentiments.append(vs)
+
+converted_sentiments = []
+for sentiment in sentiments:
+  val = sentiment['compound']
+  if val >= 0.05:
+    converted_sentiments.append(1)
+  elif val < 0.05 and val > -0.05:
+    converted_sentiments.append(0)
+  else:
+    converted_sentiments.append(-1)
+
+# Replace 'your_file.csv' with the actual file name
+output_csv_file = '/content/reddit-processed-output.csv'
+
+# Read the CSV file into a pandas DataFrame
+df = pd.read_csv(csv_file)
+
+df['output'] = converted_sentiments
+
+# Write the DataFrame with the new column back to a CSV file
+df.to_csv(output_csv_file, index=False)
 ```
 
 ## Flowchart
