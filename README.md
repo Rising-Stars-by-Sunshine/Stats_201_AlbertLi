@@ -45,8 +45,8 @@ After data preparation, three sentiment analysis models were employed to analyze
 
 ### Accuracy
 - VaderSentiment: 0.471204
-- Twitter-roBERTa-base:0.579058
-- distilRoberta-financial-sentiment:0.351832
+- Twitter-roBERTa-base: 0.579058
+- distilRoberta-financial-sentiment: 0.351832
 ---
 # Resume
 
