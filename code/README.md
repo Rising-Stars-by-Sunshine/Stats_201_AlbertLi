@@ -2,7 +2,7 @@
 
 This section of the code is dedicated to web scraping using the PRAW (Python Reddit API Wrapper) library. The goal was to extract valuable information from r/WallStreetBets, focusing on three key elements: post content, upvotes, and comments. The Reddit API was accessed with appropriate credentials, allowing for the extraction of every post from r/WallStreetBets over the past year. To ensure data quality, only posts with a minimum of 250 upvotes and comments were included. This criterion was chosen to highlight posts with substantial community interaction, indicating potential shifts in sentiment or opinions related to specific assets or the market as a whole.
 
-See the [Google Colab Notebook](./STATS_201_ajl128_data_query.ipynb). Also see [PRAW](https://praw.readthedocs.io/en/stable/) for more details.
+See [Jupyter Notebook](./query/data-query.ipynb). Also see [PRAW](https://praw.readthedocs.io/en/stable/) for more details.
 
 ## Prerequisites
 
