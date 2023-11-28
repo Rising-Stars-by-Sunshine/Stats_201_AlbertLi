@@ -41,7 +41,7 @@ After data preparation, three sentiment analysis models were employed to analyze
 
 ### Accuracy Over Epochs
 
-![Combined Results](/accuracy-plot.png)
+![Combined Results](/results/accuracy-plot.png)
 
 ### Accuracy
 - VaderSentiment: 0.471204
