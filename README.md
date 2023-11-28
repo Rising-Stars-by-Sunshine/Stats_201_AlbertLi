@@ -1,6 +1,6 @@
 # Stats 201
 
-## Table of Contents
+## Repository Table of Contents
 
 1. [Introduction](#introduction)
 1. [Code](#code)
