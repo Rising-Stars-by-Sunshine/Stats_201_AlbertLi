@@ -69,6 +69,8 @@ for submission in subreddit.hot(limit=5):
 
 # Sentiment Analysis Models
 
+See [Jupyter Notebook](./processing/data-processing.ipynb).
+
 This section of the code involves processing the extracted data through three distinct sentiment analysis models: [VaderSentiment](https://github.com/cjhutto/vaderSentiment#python-demo-and-code-examples), [Twitter-roBERTa-base](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest), and [distilRoberta-financial-sentiment](https://huggingface.co/mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis). The objective is to analyze the sentiment expressed in the WallStreetBets posts and compare the results against manually labeled true labels.
 
 ## Prerequisites
