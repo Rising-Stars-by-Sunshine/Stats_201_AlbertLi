@@ -9,9 +9,23 @@
 
 ## Introduction
 
-This project explores sentiment analysis on the r/wallstreetbets subreddit, employing established models on a web-scraped dataset. The unique challenge arises from the subreddit's frequent use of short text, coined terms, and multimedia content such as images and links. The hypothesis driving this investigation is that traditional sentiment analysis models may face challenges in effectively capturing sentiments due to the unconventional language and rich media employed by the community. By delving into these intricacies, the repository aims to shed light on the limitations and nuances of sentiment analysis in unconventional online forums.
+This project involved extracting post information from r/WallStreetBets using the PRAW (Python Reddit API Wrapper) library. The main focus was on three key elements: post content, upvotes, and comments. Utilizing Reddit API credentials, PRAW was employed to extract every post from r/WallStreetBets within the past year. The aim was to sort for quality by selecting posts with a minimum of 10000 upvotes and comments. This criterion was chosen to ensure that only posts with sufficient community interaction were included, indicating a potential shift in opinion or sentiment about a specific asset or the market as a whole.
 
 ## Code
+
+### Data Extraction
+
+The data extraction process involved accessing the Reddit API and retrieving posts meeting the specified criteria. The extracted data included post content, upvote count, and the number of comments for each post. This dataset was then manually labeled to create true labels, which would be used to compare the results of sentiment analysis models.
+
+### Sentiment Analysis Models
+
+After data preparation, three sentiment analysis models were employed to analyze the labeled dataset. The models used were:
+
+1. [VaderSentiment](https://github.com/cjhutto/vaderSentiment#python-demo-and-code-examples): Model designed for sentiment analysis on text data and provides a polarity score for each post.
+
+2. [Twitter-roBERTa-base](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest): Leverages the roBERTa-base architecture, fine-tuned on Twitter data.
+
+3. [distilRoberta-financial-sentiment](https://huggingface.co/mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis): Model fine-tuned specifically for financial sentiment analysis.
 
 [Folder](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/tree/main/code) containing the various sentiment analysis models from prior high-performing models.
 
