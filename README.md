@@ -2,10 +2,10 @@
 
 ## Repository Table of Contents
 
-##### 1. **[Introduction](#introduction)**
-##### 2. [Code](#code)
-##### 3. [Data](#data)
-##### 4. [Literature](#literature)
+#### 1. **[Introduction](#introduction)**
+#### 2. **[Code](#code)**
+#### 3. **[Data](#data)**
+#### 4. **[Literature](#literature)**
 
 ## Introduction
 
