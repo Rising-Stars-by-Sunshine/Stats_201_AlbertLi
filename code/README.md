@@ -31,6 +31,7 @@ user_agent = 'dku-stats-201 (by u/Alb3r7-Li)'
 ```
 
 ## Pseudocode
+```
 1. Initialization and Imports:
    - Import the necessary libraries for the program: praw for Reddit API access, time for introducing delays, json for handling JSON data, and csv for working with CSV files.
 3. Reddit API Setup:
@@ -57,7 +58,7 @@ user_agent = 'dku-stats-201 (by u/Alb3r7-Li)'
     - Open the CSV file and create a CSV writer.
     - Write the header using keys from the first dictionary in the data list.
     - Iterate through the data list and write each dictionary as a row in the CSV file.
-
+```
 ## Sample Code
 
 ```python
