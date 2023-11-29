@@ -30,7 +30,33 @@ client_secret = 'iKTVvJdfAXkdgt2BVWQ'
 user_agent = 'dku-stats-201 (by u/Alb3r7-Li)'
 ```
 
-
+## Pseudocode
+1. Initialization and Imports:
+   - Import the necessary libraries for the program: praw for Reddit API access, time for introducing delays, json for handling JSON data, and csv for working with CSV files.
+3. Reddit API Setup:
+   - Set up the Reddit API connection using the PRAW library with provided API credentials.
+4. Subreddit Selection:
+   - Choose the subreddit to analyze, in this case, "WallStreetBets."
+5. Data Storage Initialization:
+   - Create an empty list named data to store information about Reddit posts.
+6. Function Definition:
+   - Define a function named dataStore that takes in various details of a Reddit post and returns them as a dictionary.
+7. Loop Through Top Posts:
+   - Iterate through the top 2000 posts in the selected subreddit.
+   - Extract relevant information (post ID, title, content, upvotes, and number of comments) from each post.
+   - Append this information as a dictionary to the data list.
+8. Delay for API Limitation:
+   - Introduce a delay of 6 seconds after processing each post to avoid exceeding the Reddit API access limit.
+9. Data Conversion to JSON:
+    - Convert the collected data (list of dictionaries) into a formatted JSON string.
+10. JSON Loading:
+    - Load the JSON string back into a Python list for further processing.
+11. CSV File Creation:
+    - Specify the name of the CSV file as 'data-query.csv.'
+12. CSV Writing:
+    - Open the CSV file and create a CSV writer.
+    - Write the header using keys from the first dictionary in the data list.
+    - Iterate through the data list and write each dictionary as a row in the CSV file.
 
 ## Sample Code
 
