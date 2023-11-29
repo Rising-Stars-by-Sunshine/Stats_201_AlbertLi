@@ -106,6 +106,36 @@ Install Dependencies:
 pip install vaderSentiment transformers emoji
 ```
 
+## Pseudocode
+```
+1. Library Installation:
+   - Install required libraries: vaderSentiment for sentiment analysis, transformers for using pre-trained models, and emoji version 0.6.0.
+2. Imports:
+   - Import necessary libraries: csv for handling CSV files, pandas for data manipulation, SentimentIntensityAnalyzer from vaderSentiment for sentiment analysis, and various components from transformers.
+3. CSV File Handling:
+   - Specify the input CSV file containing Reddit post data labeled as 'reddit-labeled-output.csv.'
+4. Data Extraction:
+   - Read each row from the CSV file, assuming each row has at least 3 columns.
+   - Create a list named sentences containing the concatenation of the second and third columns of each row (assuming the third column is not empty).
+5. Sentiment Analysis with VADER:
+   - Use the VADER sentiment analysis tool to analyze the sentiment of each sentence in the sentences list.
+   - Convert the continuous sentiment score to discrete labels (1 for positive, 0 for neutral, -1 for negative).
+6. Sentiment Analysis with CardiffNLP Model:
+   - Utilize the cardiffnlp/twitter-roberta-base-sentiment-latest model from Hugging Face for sentiment analysis.
+   - Process sentences in chunks of length 128, and accumulate sentiment scores for each sentence.
+   - Calculate the overall sentiment label and score for each sentence based on accumulated scores.
+7. Sentiment Analysis with Financial News Model:
+   - Use the mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis model from Hugging Face for financial news sentiment analysis.
+   - Similar to the CardiffNLP model, process sentences in chunks of length 128 and accumulate sentiment scores for each sentence.
+   - Calculate the overall sentiment label and score for each sentence based on accumulated scores.
+8. Output CSV File Handling:
+   - Specify the output CSV file name as 'reddit-processed-output.csv.'
+9. Pandas DataFrame Manipulation:
+   - Read the original CSV file into a Pandas DataFrame.
+   - Add three new columns ('s1', 's2', 's3') to the DataFrame, containing the sentiment labels from the three sentiment analysis methods.
+10. Write Processed Data to CSV:
+   - Write the updated DataFrame, now including sentiment labels, back to a new CSV file ('reddit-processed-output.csv')
+```
 ## Sample Code
 
 ```python
