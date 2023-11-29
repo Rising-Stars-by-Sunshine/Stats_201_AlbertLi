@@ -64,6 +64,7 @@ Experienced software developer with a passion for building innovative solutions.
 **Bachelor of Science in Data Science**  
 Duke Kunshan University, 2027
 - GPA: 4.0/4.0
+---
 **Associate of Science in Computer Science**
 Finger Lakes Community College, 2023
 - GPA: 4.0/4.0
