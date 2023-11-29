@@ -53,7 +53,7 @@ user_agent = 'dku-stats-201 (by u/Alb3r7-Li)'
 10. JSON Loading:
     - Load the JSON string back into a Python list for further processing.
 11. CSV File Creation:
-    - Specify the name of the CSV file as 'data-query.csv.'
+    - Specify the name of the CSV file.
 12. CSV Writing:
     - Open the CSV file and create a CSV writer.
     - Write the header using keys from the first dictionary in the data list.
@@ -113,7 +113,7 @@ pip install vaderSentiment transformers emoji
 2. Imports:
    - Import necessary libraries: csv for handling CSV files, pandas for data manipulation, SentimentIntensityAnalyzer from vaderSentiment for sentiment analysis, and various components from transformers.
 3. CSV File Handling:
-   - Specify the input CSV file containing Reddit post data labeled as 'reddit-labeled-output.csv.'
+   - Specify the input CSV file containing Reddit post data.
 4. Data Extraction:
    - Read each row from the CSV file, assuming each row has at least 3 columns.
    - Create a list named sentences containing the concatenation of the second and third columns of each row (assuming the third column is not empty).
@@ -129,12 +129,12 @@ pip install vaderSentiment transformers emoji
    - Similar to the CardiffNLP model, process sentences in chunks of length 128 and accumulate sentiment scores for each sentence.
    - Calculate the overall sentiment label and score for each sentence based on accumulated scores.
 8. Output CSV File Handling:
-   - Specify the output CSV file name as 'reddit-processed-output.csv.'
+   - Specify the output CSV file name.
 9. Pandas DataFrame Manipulation:
    - Read the original CSV file into a Pandas DataFrame.
    - Add three new columns ('s1', 's2', 's3') to the DataFrame, containing the sentiment labels from the three sentiment analysis methods.
 10. Write Processed Data to CSV:
-   - Write the updated DataFrame, now including sentiment labels, back to a new CSV file ('reddit-processed-output.csv')
+   - Write the updated DataFrame, now including sentiment labels, back to a new CSV file.
 ```
 ## Sample Code
 
