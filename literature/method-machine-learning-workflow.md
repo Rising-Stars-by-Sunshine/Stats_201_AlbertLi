@@ -1,4 +1,4 @@
-# The Machine Learning Workflow
+# Method: The Machine Learning Workflow
 
 ## Model Development
 
