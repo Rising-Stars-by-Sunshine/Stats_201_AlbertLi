@@ -1,4 +1,4 @@
-# Prediction Problem
+# Method: Prediction Problem
 
 ## Research Question Formulation
 
