@@ -1,4 +1,26 @@
-# Stats 201
+# Sentiment Analysis of r/WallStreetBets
+
+// Poster
+
+## Project Information
+- Author: Albert Li, Data Science, Class of 2027, Duke Kunshan University
+- Instructor: Prof. Luyao Zhang, Duke Kunshan University
+- Disclaimer: Submissions to the Final Project for STATS201 Introduction to Machine Learning for Social Science, 2023 Autumn Term (Seven Week - Second) instructed by Prof. Luyao Zhang at Duke Kunshan University.
+- Acknowledgements: I would like to acknowledge Professor Luyao Zhang and my classmates for fostering a collaborative and academically stimulating class environment.
+
+## Project Summary
+- Modern sentiment analysis models have proven to accurately predict social media opinions on popular platforms like X (formerly Twitter) and Facebook. However, there is a gap in research into the sentiment analysis of Generation Z social media, specifically, the usage of ambiguous words, emojis, and newly invented words. This research studies the performance of popular sentiment analysis models on r/WallStreetBets, a Reddit community infamous for its involvement in the Gamestop short squeeze. In addition, the research analyzes various features like post length, emojis, and ambiguous words.
+- The questions this study aims to answer are:
+  -  Will popular sentiment models trained for social media analysis return significantly lower performance on a r/WallStreetBets dataset?
+  -  Which factors (new words, emojis, ambiguous meanings) affect model performance?
+
+## Application Scenario
+- This study’s findings introduce a future area of research for sentiment analysis models: Gen Z’s online communication style. Specifically, it proposes several factors that might help analyze Gen Z's social media sentiment. Understanding Gen Z sentiment is crucial as they account for a third of China’s online population, thereby having a stake in the overall public opinion (Hu et al., 2022).
+
+## Methodology
+- Data Collection
+- Model Implementation
+- Data Analysis
 
 ## Repository Table of Contents
 
