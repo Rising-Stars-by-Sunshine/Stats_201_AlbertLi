@@ -1,5 +1,8 @@
 # Methods
 
+## Flowchart
+![Flowchart](./methods.png)
+
 ## Prediction Problem
 
 ## Research Question Formulation
