@@ -2,6 +2,9 @@
 
 This study builds upon research on r/WallStreetBets's (WSB) effect on financial trends, the RoBERTa model, and social media sentiment analysis.
 
+## Flowchart
+![Flowchart](./literature.png)
+
 ### ![Lyócsa et al., 2021]()
 Lyócsa et al.'s research dived into r/WallStreetBet's impact on prices, an event they termed the "YOLO effect". When compared with previous short squeezes, the researchers observed a positive correlation between the WSB subreddit and increased price variation (Lyócsa et al., 2021). Lyócsa et al.'s findings validate the significance of the WSB community, making it a prime and valid target for social media sentiment analysis. Additionally, their findings lead to potential future research; their findings hint at the possibility of using WSB for targeted stock price prediction.
 ### ![Malik et al., 2023]()
