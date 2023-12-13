@@ -1,5 +1,8 @@
 # Results
 
+## Flowchart
+![Flowchart](./results.png)
+
 ### Accuracy Plot
 ![Accuracy Plot](./accuracy-plot.png)
 
