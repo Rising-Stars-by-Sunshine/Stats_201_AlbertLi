@@ -195,13 +195,13 @@ Data analysis compared the overall performance across the three sentiment analys
 ![Accuracy Plot](./accuracy-plot.png)
 
 ### Average Sequence Length
-![]()
+![Sequence Length](./sequence-length.png)
 
 ### Accuracy By Emoji
-![]()
+![Emoji](./emoji.png)
 
 ### Accuracy By Keyword
-![]()
+![Ambiguous Words](./ambiguous-word.png)
 
 ## Flowchart
 ![Coding Process](./coding-process.png)
