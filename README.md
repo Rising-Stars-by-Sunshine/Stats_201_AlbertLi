@@ -1,6 +1,7 @@
 # Sentiment Analysis of r/WallStreetBets
 
-// Poster
+## Poster
+![Poster](./poster.png)
 
 ## Project Information
 - Author: Albert Li, Data Science, Class of 2027, Duke Kunshan University
