@@ -9,18 +9,28 @@
 - Acknowledgements: I would like to acknowledge Professor Luyao Zhang and my classmates for fostering a collaborative and academically stimulating class environment.
 
 ## Project Summary
-- Modern sentiment analysis models have proven to accurately predict social media opinions on popular platforms like X (formerly Twitter) and Facebook. However, there is a gap in research into the sentiment analysis of Generation Z social media, specifically, the usage of ambiguous words, emojis, and newly invented words. This research studies the performance of popular sentiment analysis models on r/WallStreetBets, a Reddit community infamous for its involvement in the Gamestop short squeeze. In addition, the research analyzes various features like post length, emojis, and ambiguous words.
+- Modern sentiment analysis models have proven to accurately predict social media opinions on popular platforms like X (formerly Twitter) and Facebook. However, there is a gap in research into the sentiment analysis of Generation Z (Gen Z) social media, specifically, the usage of ambiguous words, emojis, and newly invented words. This research studies the performance of popular sentiment analysis models on r/WallStreetBets (WSB), a 14-million-member Reddit community infamous for its involvement in the Gamestop short squeeze. In addition, the research analyzes various features like post length, emojis, and ambiguous words. Using the results of this research, future studies will be performed on the optimization of machine learning models for new-generation social media sentiment. Additionally, the scope of future studies will be targeted toward financial sentiment analysis of WSB as a feature for financial asset price prediction.
 - The questions this study aims to answer are:
-  -  Will popular sentiment models trained for social media analysis return significantly lower performance on a r/WallStreetBets dataset?
+  -  Will popular sentiment models trained for social media analysis return significantly lower performance on a WSB dataset?
   -  Which factors (new words, emojis, ambiguous meanings) affect model performance?
 
 ## Application Scenario
-- This study’s findings introduce a future area of research for sentiment analysis models: Gen Z’s online communication style. Specifically, it proposes several factors that might help analyze Gen Z's social media sentiment. Understanding Gen Z sentiment is crucial as they account for a third of China’s online population, thereby having a stake in the overall public opinion (Hu et al., 2022).
+- This study’s findings introduce a future area of research for sentiment analysis models: Gen Z’s online communication style. Specifically, it proposes several factors that might help analyze Gen Z's social media sentiment. Understanding Gen Z sentiment is crucial as they account for a third of China’s online population, thereby having a stake in the overall public opinion (Hu et al., 2022). Automating the acquisition of public sentiment will have major impacts in multiple sectors, streamlining the feedback process from individuals to companies, from citizens to governments, and from consumers to producers.
 
 ## Methodology
+The methodology for this research project can be broken into three processes: data collection, model implementation, and data analysis. Each step can be accessed in this repository's "Code" folder. 
 - Data Collection
+  - Without a publicly available dataset for WSB, this research begins with data collection and querying. This study utilizes the Python Reddit API Wrapper (PRAW) module, an open-source code library designed to facilitate the usage of the Reddit API. The code sorts the community by its top posts, filtering only for posts with over 10,000 upvotes and comments to ensure post quality and significance, accurately reflecting the community's general sentiment. The data was then manually labeled as positive (1), neutral (0), or negative (-1). The resultant dataset for this study was composed of 955 posts.
 - Model Implementation
+  - As this research was designed to target social media sentiment, three popular social media sentiment analysis models were used: VaderSentiment (VS), Twitter-roBERTa-base (TRB), and distilRoberta-financial-sentiment (DFS). For sentiment prediction, each model segmented the post string into 128-character chunks to ensure proper model functionality. Each chunk was weighted by its string length and averaged to evaluate the post's sentiment.
 - Data Analysis
+  - From the data, the average sequence length, top three emojis, and top five ambiguous words were extracted from relevant posts. These results were graphed and compared between models, highlighting the accuracy for each case.
+ 
+## Results
+The results indicated that sentiment analysis models indeed struggle in predicting WSB sentiment, with each model obtaining less than 70% accuracy. This result validates the necessity for future focus on this area of research and suggests that the differences between each generation's use of language are strong contributors to this drop in accuracy. The study looked at three of these cases: average post length, emoji usage, and ambiguous word usage. The average post length of the incorrect sequences was on average longer than that of correctly labeled ones, indicating that the models were likely confused by more sharply contrasting sentiments toward different topics. Additionally, the use of emoji had varied effects on model accuracy, with the rocket increasing accuracy and the ape significantly decreasing accuracy. While it is difficult to make conclusive judgments due to the many confounding variables, the posts with rockets likely incorporated more clear sentiment indications, resulting in an overall increase in accuracy. The inverse can be said about the ape, where the posts included conflicting keywords that confused the model. In these cases, the models did not see the proper significance and/or sentiment of the emojis, which commonly have a large impact on a post's sentiment. The use of ambiguous words also had varied effects on model performance, indicating that the ambiguous terms did not significantly impact the post's sentiment.
+
+## Intellectual Merits and Practical Impacts
+This research introduces the need for future research into new-generation social media 
 
 ## Repository Table of Contents
 
@@ -31,7 +41,7 @@
 
 ## Introduction
 
-This project involved extracting post information from r/WallStreetBets using the PRAW (Python Reddit API Wrapper) library. The main focus was on three key elements: post content, upvotes, and comments. Utilizing Reddit API credentials, PRAW was employed to extract every post from r/WallStreetBets within the past year. The aim was to sort for quality by selecting posts with a minimum of 10000 upvotes and comments. This criterion was chosen to ensure that only posts with sufficient community interaction were included, indicating a potential shift in opinion or sentiment about a specific asset or the market as a whole.
+This project extracted post information from r/WallStreetBets using the PRAW (Python Reddit API Wrapper) library. The main focus was on three key elements: post content, upvotes, and comments. Using Reddit API credentials, PRAW extracted every post from r/WallStreetBets within the past year. The aim was to sort for quality by selecting posts with a minimum of 10000 upvotes and comments. This criterion was chosen to ensure that only posts with sufficient community interaction were included, indicating a potential shift in opinion or sentiment about a specific asset or the market as a whole.
 
 ## Code
 
