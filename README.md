@@ -81,16 +81,16 @@ After data preparation, three sentiment analysis models were employed to analyze
 ![Poster](./poster.png)
 
 ### Accuracy Plot
-![Accuracy Plot](./accuracy-plot.png)
+![Accuracy Plot](./code/accuracy-plot.png)
 
 ### Average Sequence Length
-![Sequence Length](./sequence-length.png)
+![Sequence Length](./code/sequence-length.png)
 
 ### Accuracy By Emoji
-![Emoji](./emoji.png)
+![Emoji](./code/emoji.png)
 
 ### Accuracy By Keyword
-![Ambiguous Words](./ambiguous-word.png)
+![Ambiguous Words](./code/ambiguous-word.png)
 
 # Author
 ## Albert Li
