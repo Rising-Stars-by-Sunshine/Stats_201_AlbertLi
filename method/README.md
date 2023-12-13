@@ -8,11 +8,11 @@
 
 This paper aimed to examine how different sentiment analysis models performed on Reddit posts. I specifically looked at r/WallStreetBets (WSB), a subreddit with over 14 million members known for finance and trading discussions. WSB was infamous for influencing market fluctuations, especially in "meme stocks" that attracted intense but short-lived interest (Nobanee & Ellili, 2023). The GameStop short squeeze in 2021, orchestrated by WSB members, was a key example.
 
-I compared various sentiment analysis models to understand how well they captured sentiment in WSB discussions about finance, trading, and meme stocks. The goal was to see which models could best analyze the emotional tone in these posts.
+I compared various sentiment analysis models to understand how well they captured sentiment in WSB discussions about finance, trading, and meme stocks. The goal was to see which models could best analyze the emotional tone in these posts. Additionally, I analyzed three features--emojis, average sequence length, and ambiguous words-- to see the impact and significance of these factors on sentiment performance.
 
-In addition to evaluating model performance, I explored how sentiment in WSB may have affected market participants, regulators, and the wider financial community. Understanding the impact of online sentiment on financial markets is crucial for managing potential risks associated with social media influence.
-
-This research contributed to the discussion on sentiment analysis, focusing on its application in online financial communities like WSB. By studying WSB and its influence on meme stocks, I hoped to shed light on the relationship between online sentiment, trading strategies, and market dynamics, providing insights into the changing landscape of modern finance.
+In essence, my research questions come down to the following:
+- Will popular sentiment models trained for social media analysis return significantly lower performance on a WSB dataset?
+- Which factors (new words, emojis, ambiguous meanings) affect model performance?
 
 ### Significance
 
