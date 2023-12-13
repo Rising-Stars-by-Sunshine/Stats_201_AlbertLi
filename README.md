@@ -40,7 +40,7 @@
 #### 4. **[Code](#code)**
 #### 5. **[Results](#results)**
 #### 6. **[Spotlight](#spotlight)**
-#### 7. **[More About the Author](#author)**
+#### 7. **[More About the Author](#more-about-the-author)**
 #### 8. **[References](#references)**
 
 ## Introduction
@@ -92,11 +92,16 @@ After data preparation, three sentiment analysis models were employed to analyze
 ### Accuracy By Keyword
 ![Ambiguous Words](./code/ambiguous-word.png)
 
-# Author
+## More About The Author
 ## Albert Li
 
 ![Headshot](Headshot.jpg)
-
-Albert Li, '27, undecided major.
 I'm a freshman at Duke Kunshan University (DKU) with a passion for both STEM and finance, although I haven't settled on a specific major just yet. I'm excited to explore the intersection of these fields and discover where my interests lie. In addition to my academic pursuits, I'm an active member of the DKU Finance Club and the DKU Pre-Law Society, allowing me to engage in discussions related to finance, investment, and economic trends, as well as explore the legal aspects of business and finance. Beyond my club involvement, I'm always seeking new opportunities to broaden my horizons and make meaningful connections on campus, believing that diverse experiences will guide me toward a fulfilling academic and professional journey at DKU.
 
+### Final Reflections
+- Intellectual Growth:
+  - In this course, my intellectual growth has centered on applying machine learning to complex social and economic issues, with a particular focus on the emerging field of new-generation social media sentiment analysis. This research has expanded my technical skills and deepened my understanding of the societal impact of sentiment analysis in the digital age. Exploring platforms like Reddit and Twitter, especially in the context of finance and trading on r/WallStreetBets, has revealed valuable insights into online community dynamics. This intersection of machine learning and social media analysis has added complexity to my journey, prompting considerations of ethical implications and societal responsibilities. Embracing interdisciplinary research, I navigate the intricate interplay between technology and society, gaining a nuanced perspective on the potential impacts of machine learning in the social and economic spheres.
+- Professional Growth:
+  - My professional growth in this course has been marked by a targeted exploration of applying machine learning to social and economic challenges, specifically in the dynamic field of new-generation social media sentiment analysis. This focus has elevated my technical proficiency and deepened my awareness of the societal implications of sentiment analysis in our digital era, particularly within online communities like Reddit and X. This intersection of machine learning and social media analysis has added a layer of complexity to my professional journey, fostering considerations of ethics and societal responsibilities. Embracing interdisciplinary research, I've honed my ability to navigate the intricate interplay between technology and society and altered my perspective on the potential impacts of machine learning applications in both social and economic spheres.
+- Living a Purposeful Life:
+  - Envisioning my contribution to the future, I aspire to be a pioneering figure in responsible and ethical AI applications, particularly in the realm of new-generation social media sentiment analysis. Imagining winning the Nobel Prize or Turing Award, my feature sentence might read, "Dedicated to advancing machine learning for social good, Albert Li spearheaded innovative solutions that positively transformed the intersection of technology, society, and economics." My ultimate goal is to contribute to self-fulfillment by making meaningful strides in human civilization, fostering a future where AI is a force for positive change and societal progress, especially in the context of online discourse and community dynamics.
