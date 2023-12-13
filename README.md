@@ -96,6 +96,15 @@ I'm a freshman at Duke Kunshan University (DKU) with a passion for both STEM and
 
 ## References
 
+### Code Source
+
+- [VaderSentiment](https://github.com/cjhutto/vaderSentiment#python-demo-and-code-examples)
+- [Twitter-roBERTa-base](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest)
+- [distilRoberta-financial-sentiment](https://huggingface.co/mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis)
+- [PRAW](https://github.com/praw-dev/praw)
+
+### Articles and Literature
+
 Barbieri, Francesco, Jose Camacho-Collados, Leonardo Neves, and Luis Espinosa-Anke. 2020. “TWEETEVAL: Unified Benchmark and Comparative Evaluation for Tweet Classification.” https://arxiv.org/pdf/2010.12421.pdf.
 
 Hutto, C.J., and Eric Gilbert. 2014. “VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text.” Proceedings of the International AAAI Conference on Web and Social Media 8 (1). https://ojs.aaai.org/index.php/ICWSM/article/view/14550.
