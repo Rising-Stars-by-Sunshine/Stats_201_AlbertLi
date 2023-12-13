@@ -95,7 +95,19 @@ I'm a freshman at Duke Kunshan University (DKU) with a passion for both STEM and
   - Envisioning my contribution to the future, I aspire to be a pioneering figure in responsible and ethical AI applications, particularly in the realm of new-generation social media sentiment analysis. Imagining winning the Nobel Prize or Turing Award, my feature sentence might read, "Dedicated to advancing machine learning for social good, Albert Li spearheaded innovative solutions that positively transformed the intersection of technology, society, and economics." My ultimate goal is to contribute to self-fulfillment by making meaningful strides in human civilization, fostering a future where AI is a force for positive change and societal progress, especially in the context of online discourse and community dynamics.
 
 ## References
+
+Barbieri, Francesco, Jose Camacho-Collados, Leonardo Neves, and Luis Espinosa-Anke. 2020. “TWEETEVAL: Unified Benchmark and Comparative Evaluation for Tweet Classification.” https://arxiv.org/pdf/2010.12421.pdf.
+Hutto, C.J., and Eric Gilbert. 2014. “VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text.” Proceedings of the International AAAI Conference on Web and Social Media 8 (1). https://ojs.aaai.org/index.php/ICWSM/article/view/14550.
+Lyócsa, Štefan, Eduard Baumöhl, and Tomáš Výrost. 2021. “YOLO Trading: Riding with the Herd during the GameStop Episode.” Finance Research Letters 46 (July): 102359. https://doi.org/10.1016/j.frl.2021.102359.
+Malik, Muhammad Shahid Iqbal, Anna Nazarova, Mona Mamdouh Jamjoom, and Dmitry I. Ignatov. 2023. “Multilingual Hope Speech Detection: A Robust Framework Using Transfer Learning of Fine-Tuning RoBERTa Model.” Journal of King Saud University - Computer and Information Sciences 35 (8): 101736. https://doi.org/10.1016/j.jksuci.2023.101736.
+Nobanee, Haitham, and Nejla Ould Daoud Ellili. 2023. “What Do We Know about Meme Stocks? A Bibliometric and Systematic Review, Current Streams, Developments, and Directions for Future Research.” International Review of Economics & Finance 85 (May): 589–602. https://doi.org/10.1016/j.iref.2023.02.012.
+Rodríguez-Ibánez, Margarita, Antonio Casánez-Ventura, Félix Castejón-Mateos, and Pedro-Manuel Cuenca-Jiménez. 2023. “A Review on Sentiment Analysis from Social Media Platforms.” Expert Systems with Applications 223 (March): 119862. https://doi.org/10.1016/j.eswa.2023.119862.
+Sanh, Victor, Lysandre Debut, Julien Chaumond, and Thomas Wolf. 2019. “DistilBERT, a Distilled Version of BERT: Smaller, Faster, Cheaper and Lighter.” ArXiv.org. 2019. https://arxiv.org/abs/1910.01108.
+Suhaimin, Mohd, Ahmad Hijazi, Ervin Gubin Moung, Puteri N. E. Nohuddin, Stephanie Chua, and Frans Coenen. 2023a. “Social Media Sentiment Analysis and Opinion Mining in Public Security: Taxonomy, Trend Analysis, Issues and Future Directions.” Journal of King Saud University - Computer and Information Sciences 35 (9): 101776–76. https://doi.org/10.1016/j.jksuci.2023.101776.
+Xu, Qianwen Ariel, Victor Chang, and Chrisina Jayne. 2022. “A Systematic Review of Social Media-Based Sentiment Analysis: Emerging Trends and Challenges.” Decision Analytics Journal 3 (June): 100073. https://doi.org/10.1016/j.dajour.2022.100073.
+
 ```bibtex
+
 @article{suhaimin_2023_social,
   author = {Suhaimin, Mohd and Hijazi, Ahmad and Ervin Gubin Moung and Puteri N. E. Nohuddin and Chua, Stephanie and Coenen, Frans},
   month = {10},
@@ -166,19 +178,6 @@ I'm a freshman at Duke Kunshan University (DKU) with a passion for both STEM and
   journal = {Finance Research Letters}
 }
 
-@article{suhaimin_2023_social,
-  author = {Suhaimin, Mohd and Hijazi, Ahmad and Ervin Gubin Moung and Puteri N. E. Nohuddin and Chua, Stephanie and Coenen, Frans},
-  month = {10},
-  pages = {101776-101776},
-  publisher = {Elsevier BV},
-  title = {Social Media Sentiment Analysis and Opinion Mining in Public Security: Taxonomy, Trend Analysis, Issues and Future Directions},
-  doi = {10.1016/j.jksuci.2023.101776},
-  urldate = {2023-11-17},
-  volume = {35},
-  year = {2023},
-  journal = {Journal of King Saud University - Computer and Information Sciences}
-}
-
 @article{hutto_2014_vader,
   author = {Hutto, C.J. and Gilbert, Eric},
   month = {05},
@@ -204,4 +203,5 @@ I'm a freshman at Duke Kunshan University (DKU) with a passion for both STEM and
   year = {2019},
   organization = {arXiv.org}
 }
+
 ```
