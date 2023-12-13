@@ -1,8 +1,5 @@
 # Sentiment Analysis of r/WallStreetBets
 
-## Poster
-![Poster](./poster.png)
-
 ## Project Information
 - Author: Albert Li, Data Science, Class of 2027, Duke Kunshan University
 - Instructor: Prof. Luyao Zhang, Duke Kunshan University
@@ -36,6 +33,8 @@
   - Given that Generation Z is a global demographic, future studies could expand the scope to analyze cross-cultural variations in social media sentiment. This could involve investigating how linguistic nuances and communication styles differ among Gen Z users in various regions, contributing to more culturally sensitive sentiment analysis models. The research opens avenues for the development of real-time social listening tools capable of tracking and analyzing sentiment trends on platforms dominated by Gen Z. Such tools could empower businesses, governments, and organizations to respond promptly to emerging sentiments, enabling agile decision-making and adaptive strategies.
 
 
+## Poster
+![Poster](./poster.png)
 
 
 ## Repository Table of Contents
