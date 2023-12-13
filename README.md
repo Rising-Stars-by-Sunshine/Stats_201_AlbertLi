@@ -80,18 +80,6 @@ After data preparation, three sentiment analysis models were employed to analyze
 ## Spotlight
 ![Poster](./poster.png)
 
-### Accuracy Plot
-![Accuracy Plot](./code/accuracy-plot.png)
-
-### Average Sequence Length
-![Sequence Length](./code/sequence-length.png)
-
-### Accuracy By Emoji
-![Emoji](./code/emoji.png)
-
-### Accuracy By Keyword
-![Ambiguous Words](./code/ambiguous-word.png)
-
 ## More About The Author
 ## Albert Li
 
@@ -105,3 +93,115 @@ I'm a freshman at Duke Kunshan University (DKU) with a passion for both STEM and
   - My professional growth in this course has been marked by a targeted exploration of applying machine learning to social and economic challenges, specifically in the dynamic field of new-generation social media sentiment analysis. This focus has elevated my technical proficiency and deepened my awareness of the societal implications of sentiment analysis in our digital era, particularly within online communities like Reddit and X. This intersection of machine learning and social media analysis has added a layer of complexity to my professional journey, fostering considerations of ethics and societal responsibilities. Embracing interdisciplinary research, I've honed my ability to navigate the intricate interplay between technology and society and altered my perspective on the potential impacts of machine learning applications in both social and economic spheres.
 - Living a Purposeful Life:
   - Envisioning my contribution to the future, I aspire to be a pioneering figure in responsible and ethical AI applications, particularly in the realm of new-generation social media sentiment analysis. Imagining winning the Nobel Prize or Turing Award, my feature sentence might read, "Dedicated to advancing machine learning for social good, Albert Li spearheaded innovative solutions that positively transformed the intersection of technology, society, and economics." My ultimate goal is to contribute to self-fulfillment by making meaningful strides in human civilization, fostering a future where AI is a force for positive change and societal progress, especially in the context of online discourse and community dynamics.
+
+## References
+```bibtex
+@article{suhaimin_2023_social,
+  author = {Suhaimin, Mohd and Hijazi, Ahmad and Ervin Gubin Moung and Puteri N. E. Nohuddin and Chua, Stephanie and Coenen, Frans},
+  month = {10},
+  pages = {101776-101776},
+  publisher = {Elsevier BV},
+  title = {Social Media Sentiment Analysis and Opinion Mining in Public Security: Taxonomy, Trend Analysis, Issues and Future Directions},
+  doi = {10.1016/j.jksuci.2023.101776},
+  urldate = {2023-11-17},
+  volume = {35},
+  year = {2023},
+  journal = {Journal of King Saud University - Computer and Information Sciences}
+}
+
+@article{rodrguezibnez_2023_a,
+  author = {Rodríguez-Ibánez, Margarita and Casánez-Ventura, Antonio and Castejón-Mateos, Félix and Cuenca-Jiménez, Pedro-Manuel},
+  month = {03},
+  pages = {119862},
+  title = {A Review on Sentiment Analysis from Social Media Platforms},
+  doi = {10.1016/j.eswa.2023.119862},
+  volume = {223},
+  year = {2023},
+  journal = {Expert Systems with Applications}
+}
+
+@article{nobanee_2023_what,
+  author = {Nobanee, Haitham and Ellili, Nejla Ould Daoud},
+  month = {05},
+  pages = {589-602},
+  title = {What do we know about meme stocks? A bibliometric and systematic review, current streams, developments, and directions for future research},
+  doi = {10.1016/j.iref.2023.02.012},
+  volume = {85},
+  year = {2023},
+  journal = {International Review of Economics & Finance}
+}
+
+@article{xu_2022_a,
+  author = {Xu, Qianwen Ariel and Chang, Victor and Jayne, Chrisina},
+  month = {06},
+  pages = {100073},
+  title = {A systematic review of social media-based sentiment analysis: Emerging trends and challenges},
+  doi = {10.1016/j.dajour.2022.100073},
+  volume = {3},
+  year = {2022},
+  journal = {Decision Analytics Journal}
+}
+
+@article{malik_2023_multilingual,
+  author = {Malik, Muhammad Shahid Iqbal and Nazarova, Anna and Jamjoom, Mona Mamdouh and Ignatov, Dmitry I.},
+  month = {09},
+  pages = {101736},
+  title = {Multilingual hope speech detection: A Robust framework using transfer learning of fine-tuning RoBERTa model},
+  doi = {10.1016/j.jksuci.2023.101736},
+  url = {https://www.sciencedirect.com/science/article/pii/S1319157823002902},
+  urldate = {2023-12-13},
+  volume = {35},
+  year = {2023},
+  journal = {Journal of King Saud University - Computer and Information Sciences}
+}
+
+@article{lycsa_2021_yolo,
+  author = {Lyócsa, Štefan and Baumöhl, Eduard and Výrost, Tomáš},
+  month = {07},
+  pages = {102359},
+  title = {YOLO trading: Riding with the herd during the GameStop episode},
+  doi = {10.1016/j.frl.2021.102359},
+  volume = {46},
+  year = {2021},
+  journal = {Finance Research Letters}
+}
+
+@article{suhaimin_2023_social,
+  author = {Suhaimin, Mohd and Hijazi, Ahmad and Ervin Gubin Moung and Puteri N. E. Nohuddin and Chua, Stephanie and Coenen, Frans},
+  month = {10},
+  pages = {101776-101776},
+  publisher = {Elsevier BV},
+  title = {Social Media Sentiment Analysis and Opinion Mining in Public Security: Taxonomy, Trend Analysis, Issues and Future Directions},
+  doi = {10.1016/j.jksuci.2023.101776},
+  urldate = {2023-11-17},
+  volume = {35},
+  year = {2023},
+  journal = {Journal of King Saud University - Computer and Information Sciences}
+}
+
+@article{hutto_2014_vader,
+  author = {Hutto, C.J. and Gilbert, Eric},
+  month = {05},
+  title = {VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text},
+  url = {https://ojs.aaai.org/index.php/ICWSM/article/view/14550},
+  volume = {8},
+  year = {2014},
+  journal = {Proceedings of the International AAAI Conference on Web and Social Media}
+}
+
+@misc{barbieri_2020_tweeteval,
+  author = {Barbieri, Francesco and Camacho-Collados, Jose and Neves, Leonardo and Espinosa-Anke, Luis},
+  month = {10},
+  title = {TWEETEVAL: Unified Benchmark and Comparative Evaluation for Tweet Classification},
+  url = {https://arxiv.org/pdf/2010.12421.pdf},
+  year = {2020}
+}
+
+@misc{sanh_2019_distilbert,
+  author = {Sanh, Victor and Debut, Lysandre and Chaumond, Julien and Wolf, Thomas},
+  title = {DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter},
+  url = {https://arxiv.org/abs/1910.01108},
+  year = {2019},
+  organization = {arXiv.org}
+}
+```
