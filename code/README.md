@@ -191,6 +191,48 @@ df.to_csv(output_csv_file, index=False)
 
 See [Jupyter Notebook](./processing/data-visualization.ipynb). Data analysis compared the overall performance across the three sentiment analysis models. The first graph depicts the accuracy of each model graphed after each epoch. The second graph depicts the average sequence length for each model between correctly and incorrectly labeled posts. The third graph depicts the accuracy of each model on three emojis, and the fourth graph shows the accuracy of each model for five ambiguous words.
 
+## Pseudocode
+```
+1. Import Libraries:
+- Begin by importing the necessary libraries, including pandas for data manipulation, matplotlib for plotting, and numpy for numerical operations.
+
+2. Load Data:
+- Load the dataset from a CSV file into a Pandas DataFrame. This dataset is assumed to have columns such as 'label,' 's1,' 's2,' 's3,' 'post_id,' 'post_title,' and 'post_content.'
+
+3. Define Epochs:
+- Create a list of epochs, which represents different time points or iterations.
+
+4. Extract Data:
+- Retrieve relevant data from the DataFrame, including true labels, sentiment scores (s1, s2, s3), and post details (ID, title, content).
+
+5. Calculate Accuracy:
+- Develop a function to calculate accuracy and apply this function to obtain accuracy values for each sentiment score (s1, s2, s3) concerning true labels.
+
+6. Plot Accuracy Over Epochs:
+- Utilize matplotlib to create a line plot depicting how the accuracy of different sentiment models evolves over epochs.
+
+7. Save and Display Plot:
+- Save the generated plot as 'accuracy-plot.png' and display it for visual examination.
+
+8. Emoji Analysis:
+- Identify and categorize posts containing specific emojis ('💎,' '🚀,' '🦍') into separate arrays based on sentiment and model.
+
+9. Plot Emoji Analysis:
+- Create a bar chart to visualize the accuracy of sentiment models concerning posts containing different emojis ('💎,' '🚀,' '🦍').
+
+10. Sequence Length Analysis:
+- Analyze the relationship between post sequence length and sentiment accuracy for each model.
+
+11. Plot Sequence Length Analysis:
+- Generate a bar chart comparing the average sequence length for correct and incorrect sentiment predictions.
+
+12. Word Analysis:
+- Identify and categorize posts containing specific words ('retard,' 'autist,' 'hold,' 'moon,' 'GME') into separate arrays based on sentiment and model.
+
+13. Plot Word Analysis:
+- Create a bar chart to visualize the accuracy of sentiment models concerning posts containing different words.
+```
+
 ### Accuracy Plot
 ![Accuracy Plot](./accuracy-plot.png)
 
