@@ -1,6 +1,6 @@
 # Methods
 
-# Prediction Problem
+## Prediction Problem
 
 ## Research Question Formulation
 
@@ -35,6 +35,8 @@ Most sentiment analysis models are based on assigning intensity values to words 
 ### Machine Learning Algorithm Selection
 
 As the study focuses on predicting WSB post sentiment, the selected machine learning algorithms utilized natural language processing (NLP) techniques, known to be the most effective in analyzing textual content for sentiment analysis. VaderSentiment uses parsimonious rule-based modeling, allowing for their engine to "work well on social media style text, yet readily generalizable to multiple domains" (Hutto & Gilbert, 2014). Twitter-RoBERTa-base modifies RoBERTa to incorporate emotional, emoji, irony, and hate speech recognition (Barbieri et al., 2020). distilRoberta-financial-sentiment is a finetuned version of DistilRoberta, a more efficient alternative to BERT (Sanh et al., 2019).
+
+
 
 ## References
 
