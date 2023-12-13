@@ -187,5 +187,21 @@ df['output'] = converted_sentiments
 df.to_csv(output_csv_file, index=False)
 ```
 
+## Data Analysis
+
+Data analysis compared the overall performance across the three sentiment analysis models. The first graph depicts the accuracy of each model graphed after each epoch. The second graph depicts the average sequence length for each model between correctly and incorrectly labeled posts. The third graph depicts the accuracy of each model on three emojis, and the fourth graph shows the accuracy of each model for five ambiguous words.
+
+### Accuracy Plot
+![]()
+
+### Average Sequence Length
+![]()
+
+### Accuracy By Emoji
+![]()
+
+### Accuracy By Keyword
+![]()
+
 ## Flowchart
 ![Coding Process](./coding-process.png)
