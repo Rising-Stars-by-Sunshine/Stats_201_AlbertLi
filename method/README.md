@@ -36,6 +36,57 @@ Most sentiment analysis models are based on assigning intensity values to words 
 
 As the study focuses on predicting WSB post sentiment, the selected machine learning algorithms utilized natural language processing (NLP) techniques, known to be the most effective in analyzing textual content for sentiment analysis. VaderSentiment uses parsimonious rule-based modeling, allowing for their engine to "work well on social media style text, yet readily generalizable to multiple domains" (Hutto & Gilbert, 2014). Twitter-RoBERTa-base modifies RoBERTa to incorporate emotional, emoji, irony, and hate speech recognition (Barbieri et al., 2020). distilRoberta-financial-sentiment is a finetuned version of DistilRoberta, a more efficient alternative to BERT (Sanh et al., 2019).
 
+## The Machine Learning Workflow
+
+## Model Development
+
+### Data Processing
+
+#### Data Collection
+
+Posts were obtained by scraping the subreddit for textual content, ID, and post popularity (upvotes and comments).
+
+#### Post Quality
+
+The dataset’s quality is ensured by filtering posts on the following threshold:
+
+  T=1 if U,C > 10000; 0 otherwise
+
+where T is the indicator thresholding function, U is the number of upvotes, and C is the number of comments.
+
+#### Labeling
+
+To perform prediction on the self-made dataset, I manually labeled the data. The sample space of the true labels is {-1,0,1}, representing negative, neutral, and positive, respectively.
+
+## Results Presentation
+
+### Training and Testing
+
+#### Dataset Split
+
+Since I can determine the number of posts to use, the dataset was split 85-15 for training and testing. 
+
+#### Results
+
+The result of these models is an array of integers in the subset {-1,0,1}. Each index in the array corresponds to a post’s sentiment from the input information.
+
+### Data Visualization
+
+To visualize the results, I used bar graphs, comparing each model’s accuracy from its respective research to the accuracy when running on the new dataset. I also created bar graphs for each of the three extracted features, separating the data by emoji, model, and ambiguous word respectively.
+
+## Model Evaluation
+
+### Evaluation Criteria
+
+I used accuracy to evaluate the performance of each model and compared it for each of the features. The accuracy was then evaluated with 0.80 as an acceptable performance.
+
+### Iterative Improvement
+
+To accurately predict WSB sentiment, the models need to be adjusted to account for the unknown terminology. I came up with three methods for accomplishing this:
+
+- Amending dictionary: The most direct approach to predict WSB sentiment will be manually adding and assigning intensity values for each unknown word.
+- Hypersensitivity: Since sentiment analysis models are designed for longer strings, amplifying the intensity of each word or emoji might improve the model’s accuracy.
+- Utilize comments: While comments can be very short, combining (2) with a post’s comments might provide additional context to supplement the post’s brief content.
 
 
 ## References
