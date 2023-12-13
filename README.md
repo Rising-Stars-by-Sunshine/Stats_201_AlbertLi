@@ -47,6 +47,14 @@
 
 This project extracted post information from r/WallStreetBets using the PRAW (Python Reddit API Wrapper) library. The main focus was on three key elements: post content, upvotes, and comments. Using Reddit API credentials, PRAW extracted every post from r/WallStreetBets within the past year. The aim was to sort for quality by selecting posts with a minimum of 10000 upvotes and comments. This criterion was chosen to ensure that only posts with sufficient community interaction were included, indicating a potential shift in opinion or sentiment about a specific asset or the market as a whole.
 
+## Literature
+
+[Folder](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/tree/main/literature) containing documentation and literature to elucidate the study's goals and findings.
+
+## Methods
+
+[Folder](./method) containing documentation to outline the methodologies the project employed.
+
 ## Code
 
 ### Data Extraction
@@ -68,10 +76,6 @@ After data preparation, three sentiment analysis models were employed to analyze
 ## Data
 
 [Folder](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/tree/main/data) containing the data and the data querying method.
-
-## Literature
-
-[Folder](https://github.com/Rising-Stars-by-Sunshine/Stats_201_AlbertLi/tree/main/literature) containing documentation and literature to elucidate the study's goals and findings.
 
 ## Results
 
