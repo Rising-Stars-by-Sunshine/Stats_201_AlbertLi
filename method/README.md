@@ -6,12 +6,21 @@
 
 ### Objective
 
-The objective of this paper will be to study the performance of different top sentiment analysis models on Reddit posts. Specifically, this study focuses on r/WallStreetBets (WSB), a subreddit with over 14 million members known for its finance and trading content. The community is infamous for causing market fluctuations on “meme stocks,” stocks that garner intense but momentary interest (Nobanee & Ellili, 2023). The top of these stocks was Gamestop in 2021, where WSB members invoked a short squeeze.
+This paper aimed to examine how different sentiment analysis models performed on Reddit posts. I specifically looked at r/WallStreetBets (WSB), a subreddit with over 14 million members known for finance and trading discussions. WSB was infamous for influencing market fluctuations, especially in "meme stocks" that attracted intense but short-lived interest (Nobanee & Ellili, 2023). The GameStop short squeeze in 2021, orchestrated by WSB members, was a key example.
+
+I compared various sentiment analysis models to understand how well they captured sentiment in WSB discussions about finance, trading, and meme stocks. The goal was to see which models could best analyze the emotional tone in these posts.
+
+In addition to evaluating model performance, I explored how sentiment in WSB may have affected market participants, regulators, and the wider financial community. Understanding the impact of online sentiment on financial markets is crucial for managing potential risks associated with social media influence.
+
+This research contributed to the discussion on sentiment analysis, focusing on its application in online financial communities like WSB. By studying WSB and its influence on meme stocks, I hoped to shed light on the relationship between online sentiment, trading strategies, and market dynamics, providing insights into the changing landscape of modern finance.
 
 ### Significance
 
-While past studies investigated applying sentiment analysis to social media platforms, they’re usually performed on independent individuals rather than groups (Rodríguez-Ibánez et al., 2023; Suhaimin et al., 2023). When analyzing posts made in a community, it is important to note common tendencies and terminology. On WSB, fabricated words like “Paperhands” and “Diamondhands” describe the user’s intended trading decision. By understanding the consensus sentiment, models can perform better price predictions on assets tracked by the subreddit.
+Prior research has delved into the application of sentiment analysis on various social media platforms; however, these studies typically focused on individual users rather than cohesive groups (Rodríguez-Ibánez et al., 2023; Suhaimin et al., 2023). A notable gap in the literature exists regarding the nuanced dynamics of sentiment within communal spaces, where collective behavior and shared terminology play a pivotal role. This study aims to address this gap by examining sentiment within the context of online communities, with a particular emphasis on the WallStreetBets (WSB) subreddit.
 
+When analyzing posts within a community setting, it becomes crucial to recognize prevalent tendencies and the emergence of community-specific terminology. On WSB, for instance, participants commonly employ fabricated words such as "Paperhands" and "Diamondhands" to articulate their intended trading decisions. The adoption and shared understanding of these terms contribute to the formation of a unique linguistic ecosystem within the community. Understanding these communal expressions are integral to deciphering sentiment accurately, as they encapsulate the collective sentiment and market outlook of WSB participants.
+
+Beyond linguistic nuances, investigating the consensus sentiment within online communities like WSB holds significant implications for refining predictive modeling, particularly in the context of asset price predictions. By discerning the prevailing sentiment within the community, sentiment analysis models can enhance their ability to forecast price movements and trends associated with assets frequently discussed on the subreddit.
 ## Operational Measures
 
 ### Variables
