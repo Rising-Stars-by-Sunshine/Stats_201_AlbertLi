@@ -26,11 +26,11 @@ Beyond linguistic nuances, investigating the consensus sentiment within online c
 
 ### Variables
 
-The independent variable (X) of this study is the textual content of the posts, and the dependent variable (Y) will be the labels given to each post. The sample space of Y is {-1,0,1}, where -1, 0, and 1 correspond to negative, neutral, and positive posts, respectively.
+The central framework of this study hinges on the distinction between the independent variable (X) and the dependent variable (Y), focusing on unraveling sentiment dynamics within online platforms. The independent variable, X, encapsulates the textual content derived from the targeted online community's posts, presenting a diverse linguistic landscape reflecting the sentiments of community members, particularly within financial discussions. The dependent variable, Y, characterizes the sentiment of each post through a set of labels {-1, 0, 1}, representing negativity, neutrality, and positivity, respectively. This binary categorization system establishes a structured foundation for analyzing the intricate relationship between textual content and sentiment labels, aiming to discern patterns and trends within the community's expressions and contribute to a deeper understanding of sentiment dynamics in the chosen online environment.
 
 ### Data Type
 
-The dataset will contain time-series data, with each post being an observation in a sequence over time. Instead of analyzing each user, the focus is to track sentiment variations on WSB.
+The dataset under scrutiny for this study is structured as a time series, wherein each post functions as an observational point within a sequential framework over time. In contrast to conventional user-centric analyses, the primary focus here is on elucidating nuanced shifts in sentiment within the WallStreetBets (WSB) community over distinct temporal intervals. Each post serves as a temporal data point, facilitating a meticulous exploration of evolving sentiment patterns, trends, and fluctuations within the dynamic landscape of WSB. This temporal perspective provides a detailed analysis of how sentiment within the community transforms and adapts over discernible periods, potentially offering insights into the impact of external events, market dynamics, or community-driven phenomena on the collective mood and sentiment expressed in WSB posts.
 
 ## Hypothesis Development
 
