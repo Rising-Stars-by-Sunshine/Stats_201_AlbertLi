@@ -104,17 +104,90 @@ To accurately predict WSB sentiment, the models need to be adjusted to account f
 
 ## References
 
-Barbieri, F., Camacho-Collados, J., Neves, L., & Espinosa-Anke, L. (2020). TWEETEVAL: Unified Benchmark and Comparative Evaluation for Tweet Classification. https://arxiv.org/pdf/2010.12421.pdf
+Barbieri, Francesco, Jose Camacho-Collados, Leonardo Neves, and Luis Espinosa-Anke. 2020. “TWEETEVAL: Unified Benchmark and Comparative Evaluation for Tweet Classification.” https://arxiv.org/pdf/2010.12421.pdf.
 
-Hutto, C. J., & Gilbert, E. (2014). VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. Proceedings of the International AAAI Conference on Web and Social Media, 8(1). https://ojs.aaai.org/index.php/ICWSM/article/view/14550
+Hutto, C.J., and Eric Gilbert. 2014. “VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text.” Proceedings of the International AAAI Conference on Web and Social Media 8 (1). https://ojs.aaai.org/index.php/ICWSM/article/view/14550.
 
-Nobanee, H., & Ellili, N. O. D. (2023). What do we know about meme stocks? A bibliometric and systematic review, current streams, developments, and directions for future research. International Review of Economics & Finance, 85, 589–602. https://doi.org/10.1016/j.iref.2023.02.012
+Nobanee, Haitham, and Nejla Ould Daoud Ellili. 2023. “What Do We Know about Meme Stocks? A Bibliometric and Systematic Review, Current Streams, Developments, and Directions for Future Research.” International Review of Economics & Finance 85 (May): 589–602. https://doi.org/10.1016/j.iref.2023.02.012.
 
-Rodríguez-Ibánez, M., Casánez-Ventura, A., Castejón-Mateos, F., & Cuenca-Jiménez, P.-M. (2023). A Review on Sentiment Analysis from Social Media Platforms. Expert Systems with Applications, 223, 119862. https://doi.org/10.1016/j.eswa.2023.119862
+Rodríguez-Ibánez, Margarita, Antonio Casánez-Ventura, Félix Castejón-Mateos, and Pedro-Manuel Cuenca-Jiménez. 2023. “A Review on Sentiment Analysis from Social Media Platforms.” Expert Systems with Applications 223 (March): 119862. https://doi.org/10.1016/j.eswa.2023.119862.
 
-Sanh, V., Debut, L., Chaumond, J., & Wolf, T. (2019). DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. ArXiv.org. https://arxiv.org/abs/1910.01108
+Sanh, Victor, Lysandre Debut, Julien Chaumond, and Thomas Wolf. 2019. “DistilBERT, a Distilled Version of BERT: Smaller, Faster, Cheaper and Lighter.” ArXiv.org. 2019. https://arxiv.org/abs/1910.01108.
 
-Suhaimin, M., Hijazi, A., Ervin Gubin Moung, Puteri N. E. Nohuddin, Chua, S., & Coenen, F. (2023). Social Media Sentiment Analysis and Opinion Mining in Public Security: Taxonomy, Trend Analysis, Issues and Future Directions. Journal of King Saud University - Computer and Information Sciences, 35(9), 101776–101776. https://doi.org/10.1016/j.jksuci.2023.101776
+Suhaimin, Mohd, Ahmad Hijazi, Ervin Gubin Moung, Puteri N. E. Nohuddin, Stephanie Chua, and Frans Coenen. 2023. “Social Media Sentiment Analysis and Opinion Mining in Public Security: Taxonomy, Trend Analysis, Issues and Future Directions.” Journal of King Saud University - Computer and Information Sciences 35 (9): 101776–76. https://doi.org/10.1016/j.jksuci.2023.101776.
 
-Xu, Q. A., Chang, V., & Jayne, C. (2022). A systematic review of social media-based sentiment analysis: Emerging trends and challenges. Decision Analytics Journal, 3, 100073. https://doi.org/10.1016/j.dajour.2022.100073
+Xu, Qianwen Ariel, Victor Chang, and Chrisina Jayne. 2022. “A Systematic Review of Social Media-Based Sentiment Analysis: Emerging Trends and Challenges.” Decision Analytics Journal 3 (June): 100073. https://doi.org/10.1016/j.dajour.2022.100073.
 
+```bibtex
+@misc{barbieri_2020_tweeteval,
+  author = {Barbieri, Francesco and Camacho-Collados, Jose and Neves, Leonardo and Espinosa-Anke, Luis},
+  month = {10},
+  title = {TWEETEVAL: Unified Benchmark and Comparative Evaluation for Tweet Classification},
+  url = {https://arxiv.org/pdf/2010.12421.pdf},
+  year = {2020}
+}
+
+@article{hutto_2014_vader,
+  author = {Hutto, C.J. and Gilbert, Eric},
+  month = {05},
+  title = {VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text},
+  url = {https://ojs.aaai.org/index.php/ICWSM/article/view/14550},
+  volume = {8},
+  year = {2014},
+  journal = {Proceedings of the International AAAI Conference on Web and Social Media}
+}
+
+@article{nobanee_2023_what,
+  author = {Nobanee, Haitham and Ellili, Nejla Ould Daoud},
+  month = {05},
+  pages = {589-602},
+  title = {What do we know about meme stocks? A bibliometric and systematic review, current streams, developments, and directions for future research},
+  doi = {10.1016/j.iref.2023.02.012},
+  volume = {85},
+  year = {2023},
+  journal = {International Review of Economics & Finance}
+}
+
+@article{rodrguezibnez_2023_a,
+  author = {Rodríguez-Ibánez, Margarita and Casánez-Ventura, Antonio and Castejón-Mateos, Félix and Cuenca-Jiménez, Pedro-Manuel},
+  month = {03},
+  pages = {119862},
+  title = {A Review on Sentiment Analysis from Social Media Platforms},
+  doi = {10.1016/j.eswa.2023.119862},
+  volume = {223},
+  year = {2023},
+  journal = {Expert Systems with Applications}
+}
+
+@misc{sanh_2019_distilbert,
+  author = {Sanh, Victor and Debut, Lysandre and Chaumond, Julien and Wolf, Thomas},
+  title = {DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter},
+  url = {https://arxiv.org/abs/1910.01108},
+  year = {2019},
+  organization = {arXiv.org}
+}
+
+@article{suhaimin_2023_social,
+  author = {Suhaimin, Mohd and Hijazi, Ahmad and Ervin Gubin Moung and Puteri N. E. Nohuddin and Chua, Stephanie and Coenen, Frans},
+  month = {10},
+  pages = {101776-101776},
+  publisher = {Elsevier BV},
+  title = {Social Media Sentiment Analysis and Opinion Mining in Public Security: Taxonomy, Trend Analysis, Issues and Future Directions},
+  doi = {10.1016/j.jksuci.2023.101776},
+  urldate = {2023-11-17},
+  volume = {35},
+  year = {2023},
+  journal = {Journal of King Saud University - Computer and Information Sciences}
+}
+
+@article{xu_2022_a,
+  author = {Xu, Qianwen Ariel and Chang, Victor and Jayne, Chrisina},
+  month = {06},
+  pages = {100073},
+  title = {A systematic review of social media-based sentiment analysis: Emerging trends and challenges},
+  doi = {10.1016/j.dajour.2022.100073},
+  volume = {3},
+  year = {2022},
+  journal = {Decision Analytics Journal}
+}
+```
